@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrincipeO._01_Avant
+namespace PrincipeI._02_Apres
 {
-    public class Square
+    public interface IReadRepository
     {
-        public int SideSize { get; set; }
+        Book? GetById(int id);
+        IEnumerable<Book> GetAll();
     }
 }

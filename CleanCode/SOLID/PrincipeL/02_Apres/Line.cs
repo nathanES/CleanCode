@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrincipeO._01_Avant
+namespace PrincipeL._02_Apres
 {
-    public class Square
+    public class Line : Shape
     {
-        public int SideSize { get; set; }
     }
 }

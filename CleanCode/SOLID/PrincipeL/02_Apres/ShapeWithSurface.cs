@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrincipeO._01_Avant
+namespace PrincipeL._02_Apres
 {
-    public class Square
+    public abstract class ShapeWithSurface : Shape
     {
-        public int SideSize { get; set; }
+        public abstract int Surface { get; }
     }
 }

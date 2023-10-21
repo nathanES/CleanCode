@@ -4,14 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrincipeO._02_Apres
+namespace PrincipeL._02_Apres
 {
     public class SurfaceCalculator
     {
-        public int ComputeAllSize(IEnumerable<Shape> shapes)
+        public int ComputeSurface(ShapeWithSurface shape)
+        {
+            return shape.Surface;
+        }
+        public int ComputeAllSize(IEnumerable<ShapeWithSurface> shapes)
         {
             int result = 0;
-            foreach (Shape shape in shapes)
+            foreach (ShapeWithSurface shape in shapes)
             {
                 result += shape.Surface;
             }

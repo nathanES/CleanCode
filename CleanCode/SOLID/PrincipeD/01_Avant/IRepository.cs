@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrincipeO._01_Avant
+namespace PrincipeD._01_Avant
 {
-    public class Square
+    public interface IRepository : IReadRepository, IWriteRepository
     {
-        public int SideSize { get; set; }
     }
 }

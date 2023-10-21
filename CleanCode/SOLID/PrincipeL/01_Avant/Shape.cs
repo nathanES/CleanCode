@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrincipeO._02_Apres
+namespace PrincipeL._01_Avant
 {
-    internal class Shape
+    public abstract class Shape
     {
+        public abstract int Surface { get; }
     }
 }

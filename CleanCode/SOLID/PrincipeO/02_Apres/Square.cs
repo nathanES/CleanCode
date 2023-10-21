@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace PrincipeO._02_Apres
 {
-    internal class Square
+    public class Square : Shape
     {
+        public int SideSize { get; set; }
+        public override int Surface => SideSize * SideSize;
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrincipeO._02_Apres
+namespace PrincipeL._01_Avant
 {
     public class Rectangle : Shape
     {
