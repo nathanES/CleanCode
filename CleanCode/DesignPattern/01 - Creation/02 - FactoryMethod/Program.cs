@@ -2,6 +2,8 @@
 {
     internal class Program
     {
+        //C'est utilisé pour faire des instanciations complexes de classes
+        //  qui répondent à des besoins métiers
         static void Main(string[] args)
         {
             Patient a = new Patient();

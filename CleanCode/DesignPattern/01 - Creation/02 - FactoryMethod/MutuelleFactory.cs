@@ -21,4 +21,20 @@ namespace _02___FactoryMethod
                 return new LeopardMutuelle();        
         }
     }
+
+    #region pour les objets plus complexe
+    public abstract class MutuelleFactory2
+    {
+        public abstract Mutuelle GetMutuelle(Patient patient);
+    }
+
+    public class LesOisillonsMutuelleFactory : MutuelleFactory2
+    {
+        public override Mutuelle GetMutuelle(Patient patient)
+        {
+            return new LesOisillonsMutuelle();
+        }
+    }
+
+    #endregion
 }
