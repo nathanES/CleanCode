@@ -1,13 +1,46 @@
-﻿namespace PrincipeD
+﻿using PrincipeD._01_Avant;
+
+namespace PrincipeD
 {
     internal class Program
     {
         //Principe D : Depedency Inversion Principe
         //Il est préférable que ton code métier dépande d'abstraction
-        //  plutôt que des classes concrètes
+        //  et non d'implémentation 
+
+        //Si dans le futur il y a des changements de BDD ou autre, si elles héritent
+        //  de la même interface, il y a seulement à un seul endroit dans le code qu'il
+        //  faudra modifier (au moment de l'injection de dépendances par exemple)
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+#region Avant
+            BookManager(new BookRepository());
+            void BookManager(BookRepository repo)
+            {
+                //Menu pour gérer
+                //1. récupérer les livres
+                repo.GetAll();
+            }
+            #endregion
+            //Si on nous demandes de faire plutôt une sauvegarde dans un fichier
+            //  à la place d'une BDD
+            #region Apres
+            BookManager2(new _02_Apres.BookRepository());
+            BookManager2(new _02_Apres.FileBookRepository());
+            //Si on couple avec le moteur d'injection de dépendance,
+            //  il y aura seulement à un seul endroit ou on dit qu'un
+            //  IRepository est un BookRepository 
+
+
+            //Utilisation de l'interface commune.
+            //  /!\ Attention il faut qu'en même respecter le pricipe de Liskov
+            void BookManager2(_02_Apres.IRepository repo)  
+            {
+                //Menu pour gérer
+                //1. récupérer les livres
+                repo.GetAll();
+            }
+            #endregion
         }
     }
 }
