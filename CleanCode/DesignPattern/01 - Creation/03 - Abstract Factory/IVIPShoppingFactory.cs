@@ -31,7 +31,7 @@ namespace _03___Abstract_Factory
         public decimal Pourcentage => 15m;
     }
 
-    internal interface IVIPShoppingFactory
+    public interface IVIPShoppingFactory
     {
         IPourcentReduction GetReduction();
         IPrioriteCommande GetPriorite();
