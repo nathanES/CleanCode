@@ -1,4 +1,5 @@
-﻿//Bridge, Permet de faire le pont entre 2 abstractios sans que cela nuise à l'usage
+﻿//Bridge, Permet de faire le pont entre 2 abstractios sans que cela nuise à l'usage.
+//Dans cette exemple entre l'abonnement et la réduction
 //Permet principalement de pouvoir utiliser le principe O
 
 using _07___Bridge;
