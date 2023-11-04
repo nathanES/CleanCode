@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrincipeD._02_Apres
+namespace PrincipeD.Exemple1._01_Avant
 {
     public interface IRepository : IReadRepository, IWriteRepository
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrincipeD._01_Avant
+namespace PrincipeD.Exemple1._02_Apres
 {
     public interface IWriteRepository
     {
