@@ -1,6 +1,8 @@
 ﻿namespace _03___Abstract_Factory.ExempleLivreDesignPatternsEnC;
 
 //Information : Design Pattern Abstract Factory
+//Le but du pattern Abstract Factory est la création d'objets regroupés en familles
+//    sans devoir connaitre les classes concrètes déstinées à la création de ces objets.
 //Le pattern est utilisé dans les domaines suivants :
 //  - Un système utilisant des produits a besoin d'être indépendant de la façon dont ces
 //  produits sont créés et regroupés.
