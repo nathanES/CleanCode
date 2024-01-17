@@ -1,4 +1,5 @@
 ﻿namespace _03___Abstract_Factory.ExLivreDesignPatternCSharp;
+//Fabrique concrète
 public class FabriqueVehiculeEssence : IFabriqueVehicule
 {
     public Automobile CreeAutomobile(string modele, string couleur, int puissance, double espace)

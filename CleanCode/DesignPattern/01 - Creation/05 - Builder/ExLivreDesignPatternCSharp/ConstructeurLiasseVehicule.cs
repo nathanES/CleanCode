@@ -1,4 +1,5 @@
 ﻿namespace _05___Builder.ExLivreDesignPatternCSharp;
+//Constructeur abstrait
 public abstract class ConstructeurLiasseVehicule
 {
     protected Liasse? liasse;

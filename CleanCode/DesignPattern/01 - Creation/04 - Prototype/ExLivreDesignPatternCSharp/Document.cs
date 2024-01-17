@@ -1,4 +1,5 @@
 ﻿namespace _04___Prototype.ExLivreDesignPatternCSharp;
+//Prototype
 public abstract class Document
 {
     protected string contenu = "";

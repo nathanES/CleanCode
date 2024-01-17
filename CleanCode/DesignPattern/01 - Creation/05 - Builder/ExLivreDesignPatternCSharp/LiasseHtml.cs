@@ -1,4 +1,5 @@
 ﻿namespace _05___Builder.ExLivreDesignPatternCSharp;
+//Produit concret
 public class LiasseHtml : Liasse
 {
     public override void AjouteDocument(string document)

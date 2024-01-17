@@ -1,4 +1,5 @@
 ﻿namespace _02___FactoryMethod.ExLivreDesignPatternCSharp;
+//Produit concret
 public class CommandeComptant : Commande
 {
     public CommandeComptant(double montant) : base(montant)

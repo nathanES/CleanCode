@@ -1,4 +1,5 @@
 ﻿namespace _04___Prototype.ExLivreDesignPatternCSharp;
+//Client
 public class LiasseClient : Liasse
 {
     public LiasseClient(string informations)

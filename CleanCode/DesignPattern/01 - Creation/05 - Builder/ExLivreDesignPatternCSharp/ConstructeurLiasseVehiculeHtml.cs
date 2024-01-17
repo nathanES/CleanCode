@@ -1,4 +1,5 @@
 ﻿namespace _05___Builder.ExLivreDesignPatternCSharp;
+//Constructeur concret
 public class ConstructeurLiasseVehiculeHtml : ConstructeurLiasseVehicule
 {
     public ConstructeurLiasseVehiculeHtml()

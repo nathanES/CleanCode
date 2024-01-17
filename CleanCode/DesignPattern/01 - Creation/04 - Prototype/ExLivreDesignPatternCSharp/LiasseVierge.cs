@@ -1,4 +1,5 @@
 ﻿namespace _04___Prototype.ExLivreDesignPatternCSharp;
+//Client
 public class LiasseVierge : Liasse
 {
     private static LiasseVierge? _instance = null;

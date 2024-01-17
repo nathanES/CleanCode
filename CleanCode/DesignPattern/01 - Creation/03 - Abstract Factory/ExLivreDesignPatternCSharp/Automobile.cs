@@ -1,4 +1,5 @@
 ﻿namespace _03___Abstract_Factory.ExLivreDesignPatternCSharp;
+//Produit abstrait
 public abstract class Automobile
 {
     protected string modele;

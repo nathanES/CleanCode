@@ -1,4 +1,5 @@
 ﻿namespace _02___FactoryMethod.ExLivreDesignPatternCSharp;
+//Produit
 public abstract class Commande
 {
     protected double montant;

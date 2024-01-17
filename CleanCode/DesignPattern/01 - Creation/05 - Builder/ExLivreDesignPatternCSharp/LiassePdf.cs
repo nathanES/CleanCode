@@ -1,4 +1,5 @@
 ﻿namespace _05___Builder.ExLivreDesignPatternCSharp;
+//Produit Concret
 public class LiassePdf : Liasse
 {
     public override void AjouteDocument(string document)

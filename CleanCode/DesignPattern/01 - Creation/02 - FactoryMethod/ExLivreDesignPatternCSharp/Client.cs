@@ -1,4 +1,5 @@
 ﻿namespace _02___FactoryMethod.ExLivreDesignPatternCSharp;
+//Créateur abstrait
 public abstract class Client
 {
     protected List<Commande> commandes = new();
