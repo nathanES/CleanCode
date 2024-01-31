@@ -12,7 +12,7 @@ public class Catalogue //Point d'entrée
     public static int nbVoiture = 3;
     public static int nbScooter = 2;
 
-    private readonly IFabriqueVehicule fabrique;
+    private readonly IFabriqueVehicule fabrique; //En fonction de la fabrique, on aura des véhicules essence ou électrique
 
     public Catalogue(IFabriqueVehicule fabrique)
     {
