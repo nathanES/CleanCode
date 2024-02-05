@@ -26,4 +26,21 @@ public class VehiculeCommande
             Console.WriteLine();
         }
     }
+    //Option
+    //Nom : airbag
+    //Description de airbag
+    //Prix standard : 100
+    //Prix de vente : 80
+    //
+    //Option
+    //Nom : direction assistée
+    //Description de direction assistée
+    //Prix standard : 100
+    //Prix de vente : 90
+    //
+    //Option
+    //Nom : vitres électriques
+    //Description de vitres électriques
+    //Prix standard : 100
+    //Prix de vente : 85
 }
