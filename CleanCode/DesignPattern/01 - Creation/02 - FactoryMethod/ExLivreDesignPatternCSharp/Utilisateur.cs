@@ -10,7 +10,7 @@
 
 public class Utilisateur //Point d'entrée
 {
-    public static void Main()
+    public static void Main2()
     {
         Client client;
         client = new ClientComptant();

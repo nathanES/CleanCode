@@ -28,5 +28,6 @@ protected object[] descriptionsVehicule = {
                 resultat.Add((string)descriptionsVehicule[2 * index]);
             }
         }
+        return resultat;
     }
 }

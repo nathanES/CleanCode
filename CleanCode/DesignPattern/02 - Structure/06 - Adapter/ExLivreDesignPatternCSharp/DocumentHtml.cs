@@ -23,4 +23,4 @@ public class DocumentHtml : IDocument
         Console.WriteLine("Imprime document HTML : " + Contenu);
     }
 }
-}
+

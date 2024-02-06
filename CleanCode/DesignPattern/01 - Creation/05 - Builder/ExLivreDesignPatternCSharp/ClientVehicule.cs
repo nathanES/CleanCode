@@ -10,7 +10,7 @@
 
 public class ClientVehicule //Point d'entrée
 {
-    private static void Main(string[] args)
+    private static void Main2(string[] args)
     {
         ConstructeurLiasseVehicule constructeur;
         Console.WriteLine(value: "Voulez-vous construire " +

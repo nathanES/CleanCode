@@ -24,5 +24,3 @@ public class MarqueDecorateur : Decorateur
         this.AfficheLogo();
     }
 }
-{
-}

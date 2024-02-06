@@ -1,4 +1,7 @@
-﻿using PrincipeD._01_Avant;
+﻿using _01_Avant = PrincipeD.Exemple1._01_Avant;
+using _02_Apres = PrincipeD.Exemple1._02_Apres;
+
+
 
 namespace PrincipeD
 {
@@ -14,8 +17,8 @@ namespace PrincipeD
         static void Main(string[] args)
         {
 #region Avant
-            BookManager(new BookRepository());
-            void BookManager(BookRepository repo)
+            BookManager(new _01_Avant.BookRepository());
+            void BookManager(_01_Avant.BookRepository repo)
             {
                 //Menu pour gérer
                 //1. récupérer les livres
