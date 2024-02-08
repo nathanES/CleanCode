@@ -12,6 +12,25 @@
 //- Un algorithme possède une partie invariable et des parties spécifiques
 //  à différents types d'objets.
 
-public class EntryPoint
+public class Utilisateur
 {
+    private static void Main(string[] args)
+    {
+        Commande commandeFrance = new CommandeFrance();
+        commandeFrance.setMontantHt(10000);
+        commandeFrance.calculeMontantTtc();
+        commandeFrance.affiche();
+
+        Commande commandeLuxembourg = new CommandeLuxembourg();
+        commandeLuxembourg.setMontantHt(10000);
+        commandeLuxembourg.calculeMontantTtc();
+        commandeLuxembourg.affiche();
+    }
+    //Résultat
+    //Commande
+    //Montant HT 10000
+    //Montant TTC 12000
+    //Commande
+    //Montant HT 10000
+    //Montant TTC 11700
 }
