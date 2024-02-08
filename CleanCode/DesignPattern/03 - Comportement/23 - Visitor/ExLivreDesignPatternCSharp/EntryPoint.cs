@@ -1,16 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace _23___Visitor.ExLivreDesignPatternCSharp;
 
-namespace _23___Visitor.ExLivreDesignPatternCSharp;
+//Informations : Design pattern Visitor
+//Le pattern Visitor construit une opération à réaliser sur les éléments
+//  d'un ensemble d'objets. De nouvelles opérations peuvent ainsi être ajoutées
+//  sans modifier les classes de ces objets.
 
-//Informations : Design pattern 
-//Le but du pattern 
-
-//Le pattern est utilisé dans les domaines suivants:
-//- 
+//Le pattern est utilisé dans les cas suivants:
+//- De nombreuses fonctionnalités doivent être ajoutées à un ensemble de classes
+//  sans que ces ajouts viennent alourdir ces classes.
+//- Un ensemble de classes possèdent une structure fixe et il est nécessaire de
+//  leur adjoindre des fonctionnalités sans modifier leur interface.
 
 public class EntryPoint
 {
