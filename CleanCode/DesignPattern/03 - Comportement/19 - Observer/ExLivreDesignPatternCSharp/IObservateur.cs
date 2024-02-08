@@ -5,13 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _19___Observer.ExLivreDesignPatternCSharp;
-
-//Informations : Design pattern 
-//Le but du pattern 
-
-//Le pattern est utilisé dans les domaines suivants:
-//- 
-
-public class EntryPoint
+public interface IObservateur
 {
+    void Actualise();
 }
