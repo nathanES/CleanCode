@@ -20,6 +20,24 @@
 
 //Dans ce cas, le pattern Strategy permet de regrouper ces classes en une seule,
 //  ce qui simplifie l'interface pour les clients
-public class EntryPoint
+public class Utilisateur
 {
+    private static void Main(string[] args)
+    {
+        VueCatalogue vueCatalogue1 = new(new DessinTroisVehiculesLigne());
+        vueCatalogue1.Dessine();
+
+        VueCatalogue vueCatalogue2 = new(new DessinUnVehiculeLigne());
+        vueCatalogue2.Dessine();
+    }
+    //Résultat
+    //Dessin les véhicules avec trois véhicules par ligne
+    //vehicule bon marche vehicule spacieux vehicule rapide
+    //vehicule confortable vehicule sportif
+    //Dessin les véhicules avec un véhicules par ligne
+    //vehicule bon marche
+    //vehicule spacieux
+    //vehicule rapide
+    //vehicule confortable
+    //vehicule sportif
 }
